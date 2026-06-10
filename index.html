@@ -3,119 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>COMPLIANCE - YONGJIN 3</title>
-    <style>
-        /* Pengaturan Dasar Halaman */
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    <title>Brosur Kontrakan Kosong</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'brand-dark': '#1e3f20',
+                        'brand-green': '#2d5a27',
+                        'brand-light': '#f4f6f0',
+                        'brand-accent': '#dfa841',
+                    }
+                }
+            }
         }
-
-        body {
-            /* Efek background blur samar mirip di gambar */
-            background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), 
-                        url(background.jpg.png) no-repeat center center fixed;
-            background-size: cover;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            padding: 20px;
-        }
-
-        /* Container Utama */
-        .container {
-            width: 100%;
-            max-width: 450px;
-            text-align: center;
-        }
-
-        /* Judul Utama Atas */
-        .main-title {
-            color: #ffffff;
-            font-size: 2rem;
-            font-weight: bold;
-            margin-bottom: 25px;
-            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
-            letter-spacing: 1px;
-        }
-
-        /* Kotak Transparan (Glassmorphism) */
-        .card {
-            background: rgba(255, 255, 255, 0.25);
-            backdrop-filter: blur(10px);
-            -webkit-backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 255, 255, 0.18);
-            border-radius: 20px;
-            padding: 25px 20px;
-            margin-bottom: 20px;
-            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
-        }
-
-        /* Nama Kontak */
-        .name {
-            color: #ffffff;
-            font-size: 1.6rem;
-            font-weight: bold;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            margin-bottom: 5px;
-            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
-        }
-
-        /* Nomor Telepon Teks */
-        .phone-number {
-            color: #e0e0e0;
-            font-size: 1.1rem;
-            margin-bottom: 15px;
-            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-        }
-
-        /* Tombol Hijau WhatsApp */
-        .btn-whatsapp {
-            display: inline-block;
-            background-color: #1cbd5d;
-            color: white;
-            text-decoration: none;
-            font-size: 1.05rem;
-            font-weight: 600;
-            padding: 12px 30px;
-            border-radius: 10px;
-            width: 100%;
-            transition: all 0.3s ease;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-        }
-
-        /* Efek saat tombol ditekan/disentuh */
-        .btn-whatsapp:active {
-            transform: scale(0.98);
-            background-color: #16994a;
-        }
-    </style>
+    </script>
 </head>
-<body>
+<body class="bg-gray-200 flex justify-center items-center min-h-screen p-4">
 
-    <div class="container">
-        <h1 class="main-title">COMPLIANCE - YONGJIN 3</h1>
-
-        <div class="card">
-            <div class="name">Chaidar - Safety Officer</div>
-            <div class="phone-number">+62 819-3658-4984</div>
-            <a href="https://wa.me/6181936584984" target="_blank" class="btn-whatsapp">Hubungi via WhatsApp</a>
+    <div class="bg-[#f4f6f0] w-full max-w-md rounded-3xl shadow-2xl overflow-hidden relative border border-gray-300 flex flex-col justify-between" style="min-height: 640px;">
+        
+        <div class="p-6 text-center z-10">
+            <div class="flex justify-center mb-1 text-brand-dark">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+                </svg>
+            </div>
+            
+            <p class="text-brand-dark font-bold text-2xl tracking-wide uppercase">Ada</p>
+            <h1 class="text-brand-dark font-black text-4xl leading-none uppercase tracking-wider">Kontrakan</h1>
+            <h1 class="text-brand-dark font-black text-5xl leading-none uppercase tracking-wider mt-1">Kosong</h1>
+            
+            <div class="w-48 h-1.5 bg-brand-accent mx-auto mt-2 rounded-full"></div>
+            
+            <div class="mt-4 inline-block bg-brand-dark text-white font-bold text-xs px-4 py-1.5 rounded-full uppercase tracking-wider shadow-sm">
+                Nyaman • Aman • Terjangkau
+            </div>
         </div>
 
-        <div class="card">
-            <div class="name">Yudha - Fire Expert</div>
-            <div class="phone-number">+62 857-7180-7899</div>
-            <a href="https://wa.me/6285771807899" target="_blank" class="btn-whatsapp">Hubungi via WhatsApp</a>
+        <div class="px-6 flex flex-col items-center z-10">
+            <div class="bg-white border-2 border-brand-accent/40 rounded-2xl p-4 w-full text-center shadow-md relative">
+                <span class="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-brand-green text-white text-xs font-bold px-4 py-0.5 rounded-md uppercase tracking-wider">
+                    Harga
+                </span>
+                <div class="text-brand-dark font-black text-3xl mt-2">
+                    Rp. 450.000 <span class="text-sm font-semibold text-gray-500">/bulan</span>
+                </div>
+                <div class="w-full border-t border-dashed border-gray-300 my-2"></div>
+                <div class="flex items-center justify-center text-xs font-bold text-brand-dark gap-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                    </svg>
+                    (Bayar di awal)
+                </div>
+            </div>
+
+            <div class="w-full max-w-[200px] mt-6 mb-4 drop-shadow-md">
+                <svg viewBox="0 0 200 160" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-full">
+                    <polygon points="100,20 20,80 180,80" fill="#2d2d2d"/>
+                    <rect x="35" y="80" width="130" height="70" fill="#fcfbf7"/>
+                    <rect x="110" y="100" width="30" height="50" fill="#6d4c41"/>
+                    <circle cx="134" cy="125" r="2" fill="#d4af37"/>
+                    <rect x="55" y="100" width="35" height="35" fill="#455a64" stroke="#fcfbf7" stroke-width="2"/>
+                </svg>
+            </div>
         </div>
 
-        <div class="card">
-            <div class="name">Novia - Technical Compliance</div>
-            <div class="phone-number">+62 852-1997-0097</div>
-            <a href="https://wa.me/6285219970097" target="_blank" class="btn-whatsapp">Hubungi via WhatsApp</a>
+        <div class="p-4 z-10">
+            <a href="https://wa.me/6281936584984?text=Halo%20Pak%20Chaidar,%20saya%20tertarik%20dengan%20kontrakan%20kosongnya." 
+               target="_blank" 
+               class="bg-brand-dark hover:bg-brand-green transition-colors duration-300 rounded-2xl p-4 flex items-center justify-between shadow-lg group block">
+                
+                <div class="flex items-center gap-4">
+                    <div class="bg-white p-2.5 rounded-full shadow-inner text-brand-green group-hover:scale-110 transition-transform duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.69-4.98c-.202-.101-1.194-.588-1.378-.654-.185-.066-.32-.099-.455.101-.134.202-.518.654-.636.782-.119.128-.238.145-.439.045-2-.1-3.66-.744-5.209-2.13-.124-.105-.187-.213-.187-.33 0-.125.059-.239.13-.33.061-.077.152-.145.213-.213.062-.077.109-.12.163-.2.055-.077.031-.15-.01-.231-.041-.08-.356-.853-.49-1.17-.13-.31-.259-.268-.356-.273l-.304-.006c-.101 0-.267.038-.407.19-.14.152-.533.521-.533 1.27s.543 1.474.62 1.576c.077.101 1.068 1.631 2.586 2.288.361.155.642.247.862.316.363.115.694.099.956.06.291-.043.91-.372 1.036-.731.125-.36.125-.667.087-.731-.039-.065-.14-.105-.34-.206"/>
+                        </svg>
+                    </div>
+                    
+                    <div class="text-left">
+                        <p class="text-gray-300 text-xs font-semibold tracking-wider">Whatsup</p>
+                        <p class="text-brand-accent text-2xl font-bold leading-tight">Chaidar</p>
+                        <p class="text-white text-xl font-bold tracking-wide">081936584984</p>
+                    </div>
+                </div>
+                
+                <div class="text-white pr-2 opacity-70 group-hover:opacity-100 group-hover:translate-x-1 transition-all duration-300">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                    </svg>
+                </div>
+            </a>
         </div>
     </div>
 
