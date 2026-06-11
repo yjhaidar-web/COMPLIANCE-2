@@ -1,11 +1,9 @@
-HTML
 <!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kontrakan Muresih</title>
-    <!-- Menggunakan Tailwind CSS CDN untuk kemudahan styling -->
+    <title>Brosur Kontrakan Kosong</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -24,12 +22,9 @@ HTML
 </head>
 <body class="bg-gray-200 flex justify-center items-center min-h-screen p-4">
 
-    <!-- Container Utama Brosur -->
-    <div class="bg-[#f4f6f0] w-full max-w-md rounded-3xl shadow-2xl overflow-hidden relative border border-gray-300 flex flex-col justify-between" style="min-height: 780px;">
+    <div class="bg-[#f4f6f0] w-full max-w-md rounded-3xl shadow-2xl overflow-hidden relative border border-gray-300 flex flex-col justify-between" style="min-height: 900px;">
         
-        <!-- Bagian Atas / Header -->
         <div class="p-6 text-center z-10">
-            <!-- Icon Rumah Kecil -->
             <div class="flex justify-center mb-1 text-brand-dark">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
@@ -38,21 +33,17 @@ HTML
             
             <p class="text-brand-dark font-bold text-2xl tracking-wide uppercase">Welcome</p>
             <h1 class="text-brand-dark font-black text-4xl leading-none uppercase tracking-wider">Kontrakan</h1>
-            <h1 class="text-brand-dark font-black text-5xl leading-none uppercase tracking-wider mt-1">Muresih</h1>
+            <h1 class="text-brand-dark font-black text-5xl leading-none uppercase tracking-wider mt-1">MURESIH</h1>
             
-            <!-- Garis Aksen Kuning -->
             <div class="w-48 h-1.5 bg-brand-accent mx-auto mt-2 rounded-full"></div>
             
-            <!-- Tagline -->
             <div class="mt-4 inline-block bg-brand-dark text-white font-bold text-xs px-4 py-1.5 rounded-full uppercase tracking-wider shadow-sm">
                 Nyaman • Aman • Terjangkau
             </div>
         </div>
 
-        <!-- Bagian Tengah (Harga, Peraturan & Ilustrasi) -->
         <div class="px-6 flex flex-col items-center z-10 gap-4">
             
-            <!-- Box Harga -->
             <div class="bg-white border-2 border-brand-accent/40 rounded-2xl p-4 w-full text-center shadow-sm relative">
                 <span class="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-brand-green text-white text-xs font-bold px-4 py-0.5 rounded-md uppercase tracking-wider">
                     Harga
@@ -62,7 +53,6 @@ HTML
                 </div>
                 <div class="w-full border-t border-dashed border-gray-300 my-2"></div>
                 <div class="flex items-center justify-center text-xs font-bold text-brand-dark gap-1">
-                    <!-- Icon Kalender -->
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                     </svg>
@@ -70,10 +60,8 @@ HTML
                 </div>
             </div>
 
-            <!-- Box Peraturan Penghuni Kontrakan -->
             <div class="bg-white border border-gray-200 rounded-2xl p-4 w-full shadow-sm text-left">
                 <h3 class="text-brand-dark font-extrabold text-sm uppercase tracking-wider mb-3 flex items-center gap-1.5">
-                    <!-- Icon Peraturan / Warning -->
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-brand-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
                     </svg>
@@ -100,46 +88,56 @@ HTML
                 </ul>
             </div>
 
-            <!-- Ilustrasi Rumah Sederhana dengan CSS/SVG -->
-            <div class="w-full max-w-[150px] drop-shadow-md mt-1">
+            <div class="bg-white border border-gray-200 rounded-2xl p-3 w-full shadow-sm text-left">
+                <h3 class="text-brand-dark font-extrabold text-sm uppercase tracking-wider mb-2 flex items-center gap-1.5">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-brand-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                    </svg>
+                    Lokasi Kontrakan
+                </h3>
+                
+                <div class="w-full h-36 rounded-xl overflow-hidden border border-gray-200 shadow-inner">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d751.7504134678893!2d106.81014977479312!3d-6.766980800694844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sid!4v1781161938188!5m2!1sen!2sid" 
+                        class="w-full h-full border-0"
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+
+            <div class="w-full max-w-[120px] drop-shadow-md mt-0.5">
                 <svg viewBox="0 0 200 160" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-full">
-                    <!-- Atap -->
                     <polygon points="100,20 20,80 180,80" fill="#2d2d2d"/>
-                    <!-- Dinding Utama -->
                     <rect x="35" y="80" width="130" height="70" fill="#fcfbf7"/>
-                    <!-- Pintu -->
                     <rect x="110" y="100" width="30" height="50" fill="#6d4c41"/>
                     <circle cx="134" cy="125" r="2" fill="#d4af37"/>
-                    <!-- Jendela -->
                     <rect x="55" y="100" width="35" height="35" fill="#455a64" stroke="#fcfbf7" stroke-width="2"/>
                 </svg>
             </div>
         </div>
 
-        <!-- Bagian Bawah / Tombol Hubungi WhatsApp -->
         <div class="p-4 z-10">
-            <!-- Link/Tombol WhatsApp Aktif -->
-            <a href="https://wa.me/6281936584984?text=Halo%20Mas%20Haidar,%20saya%20tertarik%20dengan%20kontrakan%20kosongnya." 
+            <a href="https://wa.me/6281936584984?text=Halo%20Pak%20Chaidar,%20saya%20tertarik%20dengan%20kontrakan%20kosongnya." 
                target="_blank" 
                class="bg-brand-dark hover:bg-brand-green transition-colors duration-300 rounded-2xl p-4 flex items-center justify-between shadow-lg group block">
                 
                 <div class="flex items-center gap-4">
-                    <!-- Logo WhatsApp SVG -->
                     <div class="bg-white p-2.5 rounded-full shadow-inner text-brand-green group-hover:scale-110 transition-transform duration-300">
                         <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" viewBox="0 0 16 16">
                             <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.69-4.98c-.202-.101-1.194-.588-1.378-.654-.185-.066-.32-.099-.455.101-.134.202-.518.654-.636.782-.119.128-.238.145-.439.045-2-.1-3.66-.744-5.209-2.13-.124-.105-.187-.213-.187-.33 0-.125.059-.239.13-.33.061-.077.152-.145.213-.213.062-.077.109-.12.163-.2.055-.077.031-.15-.01-.231-.041-.08-.356-.853-.49-1.17-.13-.31-.259-.268-.356-.273l-.304-.006c-.101 0-.267.038-.407.19-.14.152-.533.521-.533 1.27s.543 1.474.62 1.576c.077.101 1.068 1.631 2.586 2.288.361.155.642.247.862.316.363.115.694.099.956.06.291-.043.91-.372 1.036-.731.125-.36.125-.667.087-.731-.039-.065-.14-.105-.34-.206"/>
                         </svg>
                     </div>
                     
-                    <!-- Informasi Kontak -->
                     <div class="text-left">
-                        <p class="text-gray-300 text-xs font-semibold tracking-wider">Klik Di Sini</p>
-                        <p class="text-brand-accent text-2xl font-bold leading-tight">Admin</p>
+                        <p class="text-gray-300 text-xs font-semibold tracking-wider">Whatsup</p>
+                        <p class="text-brand-accent text-2xl font-bold leading-tight">Chaidar</p>
                         <p class="text-white text-xl font-bold tracking-wide">081936584984</p>
                     </div>
                 </div>
                 
-                <!-- Panah kecil pemanis -->
                 <div class="text-white pr-2 opacity-70 group-hover:opacity-100 group-hover:translate-x-1 transition-all duration-300">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
