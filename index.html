@@ -87,23 +87,27 @@
                     </li>
                 </ul>
             </div>
-
-            <div class="bg-white border border-gray-200 rounded-2xl p-3 w-full shadow-sm text-left">
-                <h3 class="text-brand-dark font-extrabold text-sm uppercase tracking-wider mb-2 flex items-center gap-1.5">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-brand-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                    </svg>
-                    Lokasi Kontrakan
-                </h3>
-                
-              <div class="w-full h-36 rounded-xl overflow-hidden border border-gray-200 shadow-inner">
-    <iframe 
-        src="https://maps.google.com/maps?q=-6.767116,106.809665&t=k&z=17&ie=UTF8&iwloc=&output=embed" 
-        class="w-full h-full border-0"
-        allowfullscreen="" 
-        loading="lazy">
-    </iframe>
+<!-- Box Tambahan: Google Map Lokasi -->
+<div class="bg-white border border-gray-200 rounded-2xl p-3 w-full shadow-sm text-left">
+    <h3 class="text-brand-dark font-extrabold text-sm uppercase tracking-wider mb-2 flex items-center gap-1.5">
+        <!-- Icon Peta / Penanda -->
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-brand-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+        </svg>
+        Lokasi Kontrakan
+    </h3>
+    
+    <!-- Bingkai Peta Aman untuk Layar HP (Mobile Friendly) dengan PIN PAS -->
+    <div class="w-full h-36 rounded-xl overflow-hidden border border-gray-200 shadow-inner relative">
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3963.2201886161875!2d106.809665!3d-6.767116!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNsKwNDYwMS42IlMgMTA2wrA0OCczNC44IkU!5e0!3m2!1sid!2sid!4v1718110000000!5m2!1sid!2sid" 
+            class="absolute top-0 left-0 w-full h-full border-0"
+            allowfullscreen="" 
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
 </div>
                 </div>
             </div>
